@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-</body>
-<script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="init()">
+    <h1>Tic Tac Toe</h1>
+    <div id="scoreboard">Kreis: 0 | Kreuz: 0</div>
+    <div id="container"></div>
+    <button onclick="resetGame()">Spiel neu starten</button>
+  </body>
+  <script src="./script.js"></script>
 </html>
